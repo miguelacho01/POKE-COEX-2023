@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: rgb(100, 118, 119);
+}
+
+
+header h1{
+    width: 65%;
+    height: 70px;
+    margin: auto;
+    /* text-align: center; */
+    /* align-items: center; */
+    color: rgb(233, 227, 227);
+    background-color: rgb(133, 31, 31);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    
+}
+
+#img img{
+   
+    box-shadow: 0px 1px 4px rebeccapurple;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+#img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+
+#prueba{
+    width: 220px;
+    height: 220px;
+    border: solid 1px;
+    border: solid 1px  rgb(133, 31, 31);
+    border-radius: 5%;
+    box-shadow: 0px 1px 4px rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+
+#habilidades{
+    width: 200px;
+    height: 200px;
+}
+#modal{
+    margin: auto;
+}
